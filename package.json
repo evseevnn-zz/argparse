@@ -1,0 +1,31 @@
+{
+  "name": "argparse",
+  "description": "Very powerful CLI arguments parser. Native port of argparse - python's options parsing library",
+  "version": "2.0.0",
+  "keywords": [
+    "cli",
+    "parser",
+    "argparse",
+    "option",
+    "args"
+  ],
+  "contributors": [
+    "Evseev Nikolay"
+  ],
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "license": "MIT",
+  "repository": "evseevnn/argparse",
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "depd": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "mocha": "^3.1.0"
+  }
+}
